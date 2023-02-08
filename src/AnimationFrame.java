@@ -6,6 +6,7 @@ public class AnimationFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400,400);
         //pack();
+        setLocationRelativeTo(null);
         AnimationPanel animation = new AnimationPanel();
         animation.startAnimation();
         add(animation);
