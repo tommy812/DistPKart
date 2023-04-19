@@ -1,11 +1,9 @@
+import javax.swing.*;
 ///////////////////////////////////////////
 //
 //  Sid: 1955004
 //
 ///////////////////////////////////////////
-
-import javax.swing.*;
-
 public class AnimationFrame extends JFrame {
     public AnimationFrame(){
         setTitle("Racing Karts");
